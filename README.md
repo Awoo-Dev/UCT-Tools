@@ -26,7 +26,6 @@ Sigue estos pasos para ejecutar el proyecto:
    ```shell
    -npm start
    
-2. Abre tu navegador web e ingresa la siguiente URL:
-   ```navegador
-   http://localhost:3000
+
+
 
