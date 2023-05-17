@@ -16,8 +16,9 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 2. Navega hasta el directorio del proyecto
 3. Importa @fortawesome/fontawesome-free:
-
-  -npm install @fortawesome/fontawesome-free
+   ```shell
+   -npm install @fortawesome/fontawesome-free
+  
   
 Uso
 Sigue estos pasos para ejecutar el proyecto:
