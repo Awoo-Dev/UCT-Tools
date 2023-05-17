@@ -23,7 +23,7 @@ Uso
 Sigue estos pasos para ejecutar el proyecto:
 
 1._ Inicia el servidor de desarrollo:
-    ```shell
+    ```
      -npm start
    
 2. Abre tu navegador web e ingresa la siguiente URL:
