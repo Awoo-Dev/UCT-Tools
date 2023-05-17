@@ -18,11 +18,12 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 3. Importa @fortawesome/fontawesome-free:
    ```shell
    -npm install @fortawesome/fontawesome-free
-  
-  
 Uso
 Sigue estos pasos para ejecutar el proyecto:
 
-1._ Inicia el servidor de desarrollo:
+1. Inicia el servidor de desarrollo:
    ```shell
    -npm start
+2. Abre tu navegador web e ingresa la siguiente URL:
+    ```NAVEGADOR
+   http://localhost:3000
