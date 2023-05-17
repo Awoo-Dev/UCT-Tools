@@ -23,11 +23,12 @@ Uso
 Sigue estos pasos para ejecutar el proyecto:
 
 1._ Inicia el servidor de desarrollo:
-  ```shell
+    ```shell
    -npm start
-
-2._ Abre tu navegador web e ingresa la siguiente URL:
-
- -http://localhost:3000
+   
+2. Abre tu navegador web e ingresa la siguiente URL:
+   ```navegador
+   [-npm start](http://localhost:3000
+)
 
 
