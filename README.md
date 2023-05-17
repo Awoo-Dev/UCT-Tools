@@ -30,5 +30,3 @@ Sigue estos pasos para ejecutar el proyecto:
    ```navegador
    http://localhost:3000
 
-
-
