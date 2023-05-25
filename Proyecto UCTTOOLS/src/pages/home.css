@@ -1,0 +1,24 @@
+/* Home.css */
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.title {
+  color: blue;
+  font-size: 32px;
+  text-align: center;
+}
+
+.description {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Agrega aquí estilos adicionales según sea necesario */
