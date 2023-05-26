@@ -1,24 +1,125 @@
-/* Home.css */
 
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
-.home-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body {
+  background-color: #004c80;
 }
 
-.title {
-  color: blue;
-  font-size: 32px;
-  text-align: center;
+.headerhome {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
-.description {
-  color: #333;
-  font-size: 18px;
-  line-height: 1.5;
+.hh1 {
+  font-family: "Courier Prime", monospace;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fdfdfe;
+  border-right: 4px solid #000;
+  animation: cursor 1s infinite step-end, typing 10s infinite steps(16);
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes cursor{
+  0%, 100%{border-color: transparent;}
+  50%{border-color: #f9b700;}
+}
+
+@keyframes typing{
+  0%{ width: 0ch} /*Text is hidden*/
+  30%{ width: 16ch;} /*The enitre header will be typed out*/
+  80%{ width: 16ch;} /*Text stays visible*/
+  90%{ width: 0ch;} /*Text is deleted*/
+  100%{ width: 0ch;} /*Text stays hidden*/
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
-/* Agrega aquí estilos adicionales según sea necesario */
+.logo-link {
+  text-decoration: none;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.home-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  color: white;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 600;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.section-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.section-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.link-button {
+ 
+ 
+  
+  color: #f9b700;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+
+.link-button:hover {
+  background-color: white;
+}
+
+.gif {
+  width: 200px;
+}

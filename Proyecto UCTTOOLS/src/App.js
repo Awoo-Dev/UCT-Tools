@@ -4,6 +4,7 @@ import Layout  from "./pages/Layout";
 import Chat  from "./pages/Chat";
 import Home  from "./pages/Home";
 import Default  from "./pages/Default";
+import Clima from "./pages/Clima.js";
 import Dashboard  from "./pages/Dashboard";
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
            <Route path="chat" element={<Chat />} />
+           <Route path="clima" element={<Clima />} />
            <Route path="/" element={<Home />} />
            <Route path="dashboard" element={<Dashboard />} />
            <Route path="*" element={<Default />} />

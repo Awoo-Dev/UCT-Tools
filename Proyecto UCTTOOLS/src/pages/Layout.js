@@ -13,7 +13,7 @@ function Menu() {
       <div className="sidebar">
         <ul>
           <li>
-            <Link to="/chat">
+            <Link to="chat">
               <i className="fa fa-comments"></i> Chat
               </Link>
           </li>
@@ -23,7 +23,7 @@ function Menu() {
               </Link>
           </li>
           <li>
-          <Link to="/chat.html">
+          <Link to="/chat">
               <i className="fa fa-calendar-days"></i> Crea tu horario
               </Link>
           </li>
@@ -33,7 +33,7 @@ function Menu() {
               </Link>
           </li>
           <li>
-          <Link to="/chat.html">
+          <Link to="/clima">
               <i className="fa fa-cloud-sun"></i> Clima
               </Link>
           </li>
@@ -55,3 +55,5 @@ function Menu() {
 }
 
 export default Menu;
+
+

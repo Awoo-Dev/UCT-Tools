@@ -1,0 +1,91 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
+
+
+.clima-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clima-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .clima-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .clima-description {
+    color: #666;
+  }
+  
+  .clima-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .clima-data {
+    text-align: center;
+  }
+  
+  .pronostico-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pronostico-dias {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pronostico-dia {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f000;
+  }
+  
+  .pronostico-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pronostico-icon {
+    color: #004c80;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .pronostico-temp {
+    color: #004c80;
+    font-weight: bold;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .chat-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #004c80;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
