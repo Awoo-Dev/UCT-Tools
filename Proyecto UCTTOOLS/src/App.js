@@ -4,7 +4,8 @@ import Layout  from "./pages/Layout";
 import Chat  from "./pages/Chat";
 import Home  from "./pages/Home";
 import Default  from "./pages/Default";
-import Dashboard  from "./pages/Dashboard";
+import Salas from "./pages/Salas";
+import Horario from "./pages/Horario";
 function App() {
   return (
     <div>
@@ -12,8 +13,9 @@ function App() {
         <Route path="/" element={<Layout />}>
            <Route path="chat" element={<Chat />} />
            <Route path="/" element={<Home />} />
-           <Route path="dashboard" element={<Dashboard />} />
+           <Route path="salas" element={<Salas />} />
            <Route path="*" element={<Default />} />
+           <Route path="horario" element={<Horario />} />
         </Route>
       </Routes>
     </div>

@@ -1,0 +1,30 @@
+/* horario.css */
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.content1 {
+    text-align: center;
+    background-color: rgb(42, 121, 190);
+    padding: 20px;
+}
+  
+.input {
+    text-align: center;
+    width: 40%;
+    padding: 12px;
+    border: 2px solid #352d2d;
+    border-radius: 30px;
+    margin: 10px;
+}
+  
+.button1 {
+    height: 60px;
+    width: 50px;
+    border-radius: 30px;
+}
+  
+#btn {
+    border-radius: 30px;
+    padding: 9px;
+    margin-left: 5px;
+}
