@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #1263c0;
+    background-color: #004c80;
 }
 
 #checkbox, .btn span { /* Hide the checkbox input & word "Menu" in the button */
@@ -17,7 +17,7 @@ body {
 
 /* Menu button - starts */
 .btn {
-    background-color: #1263c0;;
+    background-color: #004c80;
     color: #fff;
     width: 55px;
     height: 50px;

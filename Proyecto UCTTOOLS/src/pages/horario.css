@@ -2,6 +2,10 @@
 
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+body {
+    color: white;
+}
+
 .content1 {
     text-align: center;
     background-color: rgb(42, 121, 190);
