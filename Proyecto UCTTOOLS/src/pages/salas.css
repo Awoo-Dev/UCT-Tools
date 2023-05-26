@@ -1,0 +1,53 @@
+.buscador-salas-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #004c80;
+    color: white;
+    text-align: center;
+  }
+  
+  .buscador-salas-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .sala-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sala-input label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .sala-input input {
+    padding: 8px;
+    border: 1px solid #f9b700;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #004c80;
+    background-color: white;
+  }
+  
+  .sala-input button {
+    background-color: #f9b700;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .indicacion-container {
+    margin-top: 20px;
+  }
+  
+  .indicacion-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  

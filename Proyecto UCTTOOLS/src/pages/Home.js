@@ -26,15 +26,15 @@ const Home = () => {
             <img src={imagen1} alt="Chayanne" className="profile-image" />
           </div>
           <div className="section-content">
-            <h2>No te gusta el formato de tu horario?</h2>
-            <p>Crea el tuyo  <Link to="crearhorario" className="link-button">aquí.</Link></p>
+            <h2>No te gusta el formato de tu <a className='destacado'>horario</a>?</h2>
+            <p>Crea el tuyo  <Link to="horario" className="link-button">aquí.</Link></p>
            
           </div>
         </div>
 
         <div className="section">
           <div className="section-content">
-            <h2>Al borde del colapso?</h2>
+            <h2>Al borde del <a className='destacado'>colapso?</a></h2>
             <p>¿Las clases te han hecho sentir miserable y alejado de la mano de Dios? Desahógate <Link to="chat" className="link-button">aquí.</Link></p>
             
           </div>
@@ -47,7 +47,7 @@ const Home = () => {
             <img src={gif2} alt="capibara" className="profile-image" />
           </div>
           <div className="section-content">
-            <h2>Quieres agendar cuando ir a ver a los coipos?</h2>
+            <h2>Quieres <a className='destacado'>agendar</a> cuando ir a ver a los coipos?</h2>
             <p>Puedes hacer eso como tambien agendar tus pruebas o eventos importantes <Link to="calendario" className="link-button">aquí.</Link> "se perfectamente que es un capibara y no un coipo"</p>
            
           </div>

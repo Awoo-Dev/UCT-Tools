@@ -18,17 +18,17 @@ function Menu() {
               </Link>
           </li>
           <li>
-          <Link to="/dashboard">
+          <Link to="/salas">
               <i className="fa fa-magnifying-glass"></i> Busca tu sala
               </Link>
           </li>
           <li>
-          <Link to="/chat">
+          <Link to="/horario">
               <i className="fa fa-calendar-days"></i> Crea tu horario
               </Link>
           </li>
           <li>
-          <Link to="/chat.html">
+          <Link to="/agenda">
               <i className="fa fa-stopwatch"></i> Cuanto falta para...
               </Link>
           </li>
@@ -38,12 +38,12 @@ function Menu() {
               </Link>
           </li>
           <li>
-          <Link to="/chat.html">
+          <Link to="/micros">
               <i className="fa fa-bus"></i> Horario de micros
               </Link>
           </li>
           <li>
-          <Link to="/chat.html">
+          <Link to="/faq">
               <i className="fa fa-question"></i> Preguntas frecuentes
               </Link>
           </li>
