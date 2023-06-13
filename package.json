@@ -1,0 +1,12 @@
+{
+  "name": "react_node_proyect",
+  "version": "1.0.0",
+  "description": "Asegúrate de tener instalado lo siguiente antes de continuar:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

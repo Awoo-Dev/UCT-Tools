@@ -46,17 +46,7 @@
   position: relative;
 }
 
-.chat-messages::before {
-  content: '';
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  border-radius: 4px;
-  box-shadow: 0 0 5px #f9b700, 0 0 20px #f9b700, 0 0 40px #f9b700, 0 0 80px #f9b700;
-  animation: neon-border 1.5s infinite alternate;
-}
+
 
 @keyframes neon-border {
   0% {
