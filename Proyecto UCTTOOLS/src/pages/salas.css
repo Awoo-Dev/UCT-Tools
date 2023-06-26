@@ -50,4 +50,15 @@
     font-size: 18px;
     line-height: 1.5;
   }
-  
+  .outputinfo{
+    font-size: 20px;
+    line-height: 2.0;
+    font-weight: bolder;
+  }
+
+  .datax{
+    font-size: 20px;
+    line-height: 2.0;
+    font-weight: bolder;
+    color: #f9b700;
+  }

@@ -70,3 +70,18 @@
     color: white;
   }
   
+
+  .micro-table{
+   
+   
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  .micro-table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
